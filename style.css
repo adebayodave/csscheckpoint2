@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: roboto;
+}
+
+#top {
+    background-color: rgb(102, 102, 211);
+    padding: 10px 0px 10px 0px;
+}
+
+h1 {
+    font-family: roboto;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: end;
+    margin-right: 4rem;
+}
+
+nav a {
+    display: inline;
+    align-content: end;
+    color: black;
+    gap: spca;
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: large;
+    font-family: roboto;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+main #about h1 {
+    color: black;
+}
+
+#about p {
+    text-align: center;
+    font-size: large;
+    color: rgb(226, 82, 82);
+    margin-top: 10px;
+}
+
+main #about img {
+    margin-top: 10px;
+    margin-left: 47.5%;
+    border-radius: 10px;
+}
+
+main #about img+p {
+    margin-left: 45%;
+    font-weight: bolder;
+}
+
+main #vid video {
+    margin-left: 1px;
+    border-radius: 10px;
+}
+
+main #vid video+h3 {
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: roboto;
+    text-transform: capitalize;
+}
+
+.h4 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+main #vid audio {
+    margin-left: 38%;
+}
+
+main form {
+    text-align: center;
+    border-radius: 5px;
+}
+
+label {
+    width: 240px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+}
+
+button {
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+footer a {
+    color: rgb(105, 3, 3);
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+footer .platform {
+    text-align: center;
+}
+
+footer .platform h6 {
+    color: white;
+    font-weight: bold;
+}
+
+footer .platform a {
+    margin-inline: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .platform a:hover {
+    color: white;
+}
